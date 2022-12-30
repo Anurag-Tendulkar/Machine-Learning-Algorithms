@@ -1,3 +1,9 @@
+'''
+The following code builds a decision tree from scratch to classify the data below.
+The best split is decided by the gain in information after the split. 
+A drop in entropy results in information gain.
+The algorithm tries to spit the data into pure halves at every split
+'''
 import math
 from matplotlib import pyplot as plt
 from cProfile import label
