@@ -33,7 +33,7 @@ class PCA:
         # calculate the eigen vectors of the matrix
         self.eigen_vals, self.eigen_vecs = np.linalg.eig(VarCov)
 
-        print(self.eigen_vals)
+        # print(self.eigen_vals)
 
     # This function reduces the dimensionality of the data set to the specified value
     def fix_components(self, n_features):
